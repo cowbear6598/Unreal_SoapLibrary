@@ -2,12 +2,8 @@
 
 
 #include "SoapUtils.h"
-
-
-#include "HttpModule.h"
 #include "IImageWrapper.h"
 #include "IImageWrapperModule.h"
-#include "Interfaces/IHttpRequest.h"
 #include "JsonUtilities/Public/JsonObjectConverter.h"
 
 UTexture2D* USoapUtils::LoadTexture2DFromDiskFile(const FString& FilePath)

@@ -27,7 +27,8 @@ public class SoapLibrary : ModuleRules
 			{
 				"Core",
 				"Json",
-				"JsonUtilities"
+				"JsonUtilities",
+				"Http"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

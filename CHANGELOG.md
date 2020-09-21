@@ -4,6 +4,8 @@
 ### 增加
 
 - SoapMysql 簡易的 POST GET 功能
+- SoapMysql 增加設定 Domain 功能
+
 
 ## [1.0.1] - 2020-07-31
 ### 增加
