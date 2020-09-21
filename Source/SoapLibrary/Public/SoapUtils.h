@@ -30,10 +30,10 @@ public:
     	UFUNCTION(BlueprintCallable,Category="Soap")
     	static FString LoadTextFromDiskFile(const FString& FilePath);
            
-     //    /**
-     //     * 將文字檔轉成 JsonObject
-     //     * 
-     //     */
+		/**
+		 * 將文字檔轉成 JsonObject
+		 * 
+		  */
     	static bool StringToJsonObject(FString TextContent,TSharedPtr<FJsonObject>& OutObject);
         
      	/**
